@@ -431,7 +431,9 @@ width: 100%;
         flex-direction: column;
     }
 
-        .card{ grid-template-columns: repeat(1, 1fr); }
+        .card{ grid-template-columns: repeat(1, 1fr); 
+        width:70%;
+        }
         .cardcontent p{
             padding: 0px;
             margin-top: 10px;
