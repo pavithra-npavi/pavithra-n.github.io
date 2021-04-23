@@ -5,7 +5,7 @@
 
 .wrapper
 {
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
     background: #edf2fc;
     font-family: sans-serif;
@@ -78,7 +78,7 @@ span{
     width: 45%;
     height: 40%;
     position: absolute;    
-    bottom: 220px;
+    bottom: 180px;
     right: 100px;
 
 }
@@ -383,19 +383,31 @@ width: 100%;
     padding: 0px;
 }
     .wrapper{
-        width: 100%;
+        width: 80%;
+      /* border: 1px solid #000; */
+      ;
     }
 
     .wrapper_intro{
         max-width: 130px;
         max-height: 200px;
     }
+    .wrapper_navbar{
+        margin-left: 0px;
+        /* border: 1px solid #000; */
+        flex-direction: row;
+    }
     .profile_pic img{
         margin-left: -30px;
         width: 100px;
         height: 100px;
+        top: -30px;
+        border: 1px solid #000;
     }
 
+    .tech_stacks{
+        width: 80%;
+    }
     .social_links{
     margin-left: 20px;
     /* border: 1px solid; */
@@ -406,7 +418,7 @@ width: 100%;
         display: flex;
         flex-direction: column;
         font-size: 10px;
-        margin-top: 100px;
+        margin-top: 10px;
         margin-left: 20px;
     }
 
