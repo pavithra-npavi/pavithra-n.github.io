@@ -432,13 +432,10 @@ width: 100%;
     }
 
         .card{ grid-template-columns: repeat(1, 1fr); 
-        width:70%;
         }
-        .cardcontent p{
-            padding: 0px;
-            margin-top: 10px;
-          
+
+        .projects{
+            margin: 0;
+            padding: 0;
         }
-        
-        
   }
