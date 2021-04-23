@@ -383,7 +383,7 @@ width: 100%;
     padding: 0px;
 }
     .wrapper{
-        width: 80%;
+        width: 100%;
       /* border: 1px solid #000; */
       ;
     }
@@ -402,7 +402,7 @@ width: 100%;
         width: 100px;
         height: 100px;
         top: -30px;
-        border: 1px solid #000;
+        /* border: 1px solid #000; */
     }
 
     .tech_stacks{
