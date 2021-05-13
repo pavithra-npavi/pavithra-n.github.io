@@ -18,23 +18,26 @@
       <div class="wrapper_navbar">
         <ul>
           <li>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Project</a>
-            <a href="">Achivements</a>
+           
+            <a href="#about_me">About</a>
+            <a href="#tech_stacks"> Tech Stack</a>
+            <a href="#projects">Project</a>
+            <a href="#achivements">Achivements</a>
+            <a href="#contact_details"> Contact</a>
           </li>
         </ul>
       </div>
-      <div class="wrapper_intro">
+      <div class="wrapper_intro" id="wrapper_intro">
         <h1>I'm <span>Pavithra</span> N</h1>
+        
         <p>Full Stack Developer</p>
         <a href="./images/Pavithra's Resume.pdf" download> Resume Download</a>
       </div>
       <div class="profile_pic">
-        <img src="./images/pavithra.jpg" alt="" />
+        <img src="./images/pic.png" alt="" />
       </div>
 
-      <div class="social_links">
+      <div class="social_links1">
         <a href="">
           <i class="fab fa-github"></i>
         </a>
@@ -49,7 +52,7 @@
         </a>
       </div>
 
-      <div class="contact_details">
+      <div class="contact_details1">
         <p>
           Banglore , India
           <i class="fas fa-map-marker-alt"></i>
@@ -58,14 +61,15 @@
           7305597578
           <i class="fas fa-mobile-alt"></i>
         </p>
-        <p>
+        <!-- <p>
           pavinchinnu@gmail.com
           <i class="far fa-envelope"></i>
-        </p>
+        </p> -->
       </div>
     </div>
     
-    <div class="about_me">
+    <div class="about_me" id="about_me">
+      <div>
       <h1>About Me</h1>
       <p>
         A passonate full stack developer. Trained very well in
@@ -75,20 +79,41 @@
         helps me in enhancing my skills as a full stack developer.
       </p>
     </div>
+    </div>
 
-    <div class="tech_stacks">
+    <div class="tech_stacks" id="tech_stacks">
       <h1>Tech Stack</h1>
-      <i class="fab fa-html5 htmlicon"> <p>HTML</p> </i>
+      <!-- <i class="fab fa-html5 htmlicon"> <p>HTML</p> </i> -->
+      <div style="display: flex;">
+      <img class="htmlicon"src="images/html.png" alt="">
+      <img class ="cssicon"src="images/css.png" alt="">
+      <img src="images/JS.png" alt="">
+    </div>
+    <div>
 
+    </div>
+<!--       
       <i class="fab fa-css3-alt cssicon"><p>CSS</p></i>
-      <i class="fab fa-js-square jsicon"> <p>JavaScript</p></i>
-      <div>
-        <i class="fab fa-git-alt"><p>Git</p></i>
-        <i class="fab fa-react reactjs"><p>React</p></i>
-        <i class="fab fa-node nodejs"><p>NodeJs</p></i>
+      <i class="fab fa-js-square jsicon"> <p>JavaScript</p></i> -->
+
+
+      <!-- <i class="fab fa-git-alt"><p>Git</p></i>
+      <i class="fab fa-react reactjs"><p>React</p></i>
+      <i class="fab fa-node nodejs"><p>NodeJs</p></i>
+       -->
+      <div class="tech_stack_img">
+      <img src="images/github.png" alt="">
+      <img src="images/react.png" alt="">
+      <img class="nodeicon" src="images/node js.png" alt="">
       </div>
+      <!-- <div class="descicon">
+        <p>GIT</p>
+        <p style="margin-left:10px";">REACT</p>
+        <p style="margin-left:270px";">NODE.js</p>
+      </div> -->
 
       </div>
+      <div class="card_wrapper"  id="projects">
       <div class="projects">
         <h1>Projects</h1>
         <div class="cards">
@@ -98,13 +123,13 @@
                     <img src="./images/code.png" alt="codecov">
                     <p>Codecov provides highly integrated tools for developers and engineering leaders to gain actionable visibility into their code coverage.</p>
                     <div class="techsused" >
-                        <i class="fab fa-html5 htmlicon htmlPro"> <p>HTML</p> </i>
-                        <i class="fab fa-css3-alt cssicon"><p>CSS</p></i>
-                        <i class="fab fa-js-square jsicon"> <p>JavaScript</p></i>
+                        <i class="fab fa-html5 htmlicon htmlPro"> </i>
+                        <i class="fab fa-css3-alt cssicon"></i>
+                        <i class="fab fa-js-square jsicon"></i>
                     </div>
                     <div class="project_link">
-                      <a href="https://github.com/AnayBhoraskar/TEAM_IRON" target="_blank"> Git link</a>
-                      <a href=""> Demo</a>
+                   <a href="https://github.com/AnayBhoraskar/TEAM_IRON target="_blank"> Source Code </a> 
+                    <a href="https://pavithra-npavi.github.io/CodeCov/" target="_blank"> Demo</a>
                     </div>
                 </div>
             </div>
@@ -114,29 +139,31 @@
                 <img src="./images/clockify.png" alt="Clockify">
                 <p>Clockify is a simple time tracker and timesheet app that lets you and your team track work hours across projects. </p>
                 <div class="techsused" >
-                    <i class="fab fa-html5 htmlPro"> <p>HTML</p> </i>
-                    <i class="fab fa-css3-alt cssicon"><p>CSS</p></i>
-                    <i class="fab fa-js-square jsicon"> <p>JavaScript</p></i>
+                    <i class="fab fa-html5 htmlPro"> </i>
+                    <i class="fab fa-css3-alt cssicon"></i>
+                    <i class="fab fa-js-square jsicon"></i>
                 </div>
                 <div class="project_link">
-                  <a href="https://github.com/therealdrtroll/clockify-clone" target="_blank"> Git link</a>
-                  <a href=""> Demo</a>
+                <a href="https://github.com/therealdrtroll/clockify-clone" target="_blank"> Source Code</a>
+                  
+                <a href="https://clockify-hydrogen.netlify.app/" target="_blank"> Demo</a>
                 </div>
             </div>
             </div>
+          
             <div class="card">
                 <h1>Furlenco</h1>
                 <div class="cardcontent">          
                     <img src="./images/furlenco.png" alt="Furlenco">
-                    <p>Rent sofas, beds, dining tables and home decor from the comfort of your home.</p>
+                    <p>Furlenco is the Furniture selling Company in Bengaluru, where user can Rent sofas, beds, dining tables and home decor from the comfort of your home.</p>
                     <div class="techsused" >
-                        <i class="fab fa-html5  htmlPro"> <p>HTML</p> </i>
-                        <i class="fab fa-css3-alt cssicon"><p>CSS</p></i>
-                        <i class="fab fa-js-square jsicon"> <p>JavaScript</p></i>
+                        <i class="fab fa-html5  htmlPro"> </i>
+                        <i class="fab fa-css3-alt cssicon"></i>
+                        <i class="fab fa-js-square jsicon"></i>
                     </div>
                     <div class="project_link">
-                      <a href="https://github.com/SmithRakesh/hydrogen" target="_blank"> Git link</a>
-                      <a href=""> Demo</a>
+                   <a href="https://github.com/SmithRakesh/hydrogen" target="_blank"> Source Code</a>
+                    <!-- <a href=""> Demo</a> -->
                     </div>
                 </div>
             </div>
@@ -148,24 +175,28 @@
                         The Times of India is an Indian English-language daily newspaper and digital news media owned and managed by The Times Group. 
                     </p>
                     <div class="techsused-last" >
-                        <i class="fab fa-html5  htmlPro"> <p>HTML</p> </i>
-                        <i class="fab fa-css3-alt cssicon"><p>CSS</p></i>
-                        <i class="fab fa-js-square jsicon"> <p>JavaScript</p></i>
-                        <i class="fab fa-react reactjs"><p>React</p></i>
+                        <i class="fab fa-html5  htmlPro">  </i>
+                        <i class="fab fa-css3-alt cssicon"></i>
+                        <i class="fab fa-js-square jsicon"></i>
+                        <i class="fab fa-react reactjs"></i>
                     </div>
                     <div class="project_link">
 
-                      <a href="https://github.com/Vishal643/propane" target="_blank"> Git link</a>
-                      <a href=""> Demo</a>
+                   <a href="https://github.com/Vishal643/propane" target="_blank"> Source Code </a>
+                    <a href="https://timesofindia-team-propane.netlify.app/" target="_blank"> Demo</a>
                     </div>
                 </div>
             </div>
            
           </div>
+        </div>
+      </div>
+  
 
-          <h1 style="margin-top:50px;">Achivements</h1>
-   <div class="achivements">
-    
+      <h1 class = "stats" id="achivements">Stats</h1>
+   <div class="achivements" >
+
+ 
         <div class="box">
           
           <div class="box_content">1200+</div>
@@ -196,5 +227,47 @@
       </div>
       </div>
     </div>
+
+    <div class="lastSection_contact">
+
+      <div class="contact_details" id="contact_details">
+        <h1>Contact Details</h1>
+       
+          <p style="color: crimson;">
+            Banglore , India
+            <i class="fas fa-map-marker-alt"></i>
+          </p>
+          <p  style="color:darkmagenta;">
+            7305597578
+            <i class="fas fa-mobile-alt"></i>
+          </p>
+          <p  style="color:deeppink">
+            pavinchinnu@gmail.com
+            <i class="far fa-envelope"></i>
+          </p>
+          
+              <!-- <a href="./images/Pavithra's Resume.pdf" target="_blank" filesaver class="resume_download"> Resume Download</a>
+           -->
+          </div>   
+   <div class="social_links">
+          <a href="https://github.com/papipavi" target="_blank">
+            <i class="fab fa-github"></i>
+  
+          </a>
+          <a href="https://www.linkedin.com/in/pavithra-npavi/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.hackerrank.com/pavinchinnu?hr_r=1" target="_blank">
+            <i class="fab fa-hackerrank"></i>
+          </a>
+          <a href="https://medium.com/@pavinchinnu" target="_blank">
+            <i class="fab fa-medium-m"></i>
+          </a>
+        </div>
+      </div>
+  
+    </div>
+  
+    </script>
   </body>
 </html>
